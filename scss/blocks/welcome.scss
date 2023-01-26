@@ -1,0 +1,113 @@
+.welcome {
+    background-image: url(../images/welcome-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 250px;
+    margin-bottom: 70px;
+}
+
+.welcome__inner {
+    .welcome__subtitle {
+        font-family: 'Yellowtail';
+        font-style: normal;
+        font-size: 36px;
+        line-height: 65px;
+        letter-spacing: 0.36px;
+        text-transform: capitalize;
+        color: #7EB693;
+        margin-bottom: 15px;
+        }
+    }
+
+    .welcome__title {
+        max-width: 500px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 70px;
+        line-height: 84px;
+        letter-spacing: 0.36px;
+        color: #274C5B;
+        margin-bottom: 30px;
+    }
+
+    .welcome__button {
+        transition: all .3s;
+        background: #EFD372;
+        
+
+        &:hover {
+            transition: all .1s;
+            background: darken( #274C5B, 5%);
+
+            p {
+                color: #EFD372;
+            }
+        }
+    }
+
+   
+@media (max-width:1300px)  {
+    .welcome__inner {
+        padding-left: 15px;
+    }
+}   
+@media (max-width:768px) {
+    .welcome {
+        padding: 210px 0;
+    }
+    .welcome__inner {
+        .welcome__title {
+            font-size: 50px;
+        }
+        .welcome__subtitle {  
+            font-size: 30px;
+            line-height: 10px;
+        }
+    }
+    .welcome__title {
+        max-width: 350px;
+        font-size: 45px;
+        line-height: 52px;
+    }
+
+    .form {
+        max-width: none;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .welcome__button {
+        padding: 10px 10px 10px 13px;
+        p {
+            margin-right: 5px;
+            font-size: 15px;
+        }
+    }
+    .button__img-container {
+        width: 27px;
+        height: 26px;
+        img {
+            padding: 6px 10px 10px 5px;
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .welcome {
+        padding: 186px 0;
+    }
+
+    .welcome__inner {
+        .welcome__title {
+            font-size: 38px;
+        }
+        .welcome__subtitle {
+            font-size: 27px;
+        }
+    }
+
+    .welcome__title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+}

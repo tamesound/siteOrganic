@@ -1,0 +1,100 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  color: #525C60;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+h1 {
+  
+  font-weight: 700px;
+  font-size: calc(38px + 22 * (100vw / 1390));
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.subtitle {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 58px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 25px 10px 25px 35px;
+  background: #EFD372;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+
+  
+}
+
+.button__text {
+  font-family: 'Roboto';
+  font-size: 19px;
+  line-height: 32px;
+  letter-spacing: 0.36px;
+  text-transform: capitalize;
+  color: #274C5B;
+  margin-right: 25px;
+}
+
+.button__img-container {
+  width: 38px;
+  height: 34px;
+  text-align: center;
+  background: #335B6B;
+  border-radius: 100px;
+}
+
+.button__img {
+  padding: 11px 12px 12px 11px;
+}
+
+.form {
+  max-width: 315px;
+}
